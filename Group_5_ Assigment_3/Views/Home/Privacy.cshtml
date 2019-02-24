@@ -1,14 +1,126 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "About Project";
 }
-<h2>@ViewData["Title"]</h2>
+<h2>About this project:</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <title><"About this project:"></title>
+    <!-- Link to css formatting style for page-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!--Insert section containing answers to project questions-->
+        <section id="Responsiveness">
+            <h2 strong>Responsiveness</h2>
+            <p>
+                The website created allows for dynamic interaction regardless of the platform it is used on.
+                We made sure we utilized css code that applied formatting that would adapt to differing screen sizes.
+                As a result, we were able to create a website that dynamically resizes content to fit to the page.
+                This can be exhibited via the images on our home page as well as the Google Map on the Contact page.
+                Attached below are screenshots displaying the use of the website on 3 different platforms:
+            </p>
+            <div class="row">
+                <!--Use of CSS style to create 3 formatted columns to contain contact information-->
+                <div class="col-md-4">
+                    <h3>Safari on iOS</h3>
+                    <p>
+                        <img src="~/images/Safari.PNG" alt="Safari on IOS" class="img-responsive" />
+                    </p>
+                </div>
 
-<p>Mithra Use this section to enter  the following</p>
-<ul>
-    <li>Responsiveness – compatibility with small (mobile), medium (tablet) and large (desktop) screen sizes</li>
-    <li>Content – relevance of the content on the site</li>
-    <li>Learn MVC framework </li>
-    <li>Design – use of at least 3 specific design guidelines and ideas for web sites</li>
-    <li>Please add a comment to your submission, reflecting on your learnings, total time required and any recommendations for future assignments</li>
-    
-</ul>
+                <div class="col-md-4">
+                    <h3>Google Chrome on Kindle</h3>
+                    <p>
+                        <img src="~/images/GoogleChrome.PNG" alt="Google Chrome on Kindle Fire" class="img-responsive" />
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Edge on Windows 10</h3>
+                    <p>
+                        <img src="~/images/MicrosoftEdge.PNG" alt="Edge on Windows 10" class="img-responsive" />
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Usability">
+            <h2 strong>Usability</h2>
+            <p>
+                This website does not feature excessive amount of moving content, or images and video. It was designed this
+                way in order to make it easier for the user to navigate and experience no lag on their device.
+                Some topics that were kept in mind when optimizing the website for usability included:
+                <ul>
+                    <li>
+                        <strong>What are the user expectations for page loads?</strong> We wanted to ensure that any pages
+                        that were requested by the user would load quickly and cause not issues on the
+                        browser end.
+                    </li>
+                    <li>
+                        <strong>What are the user expectations for visibility?</strong> We utilized a simple white background
+                        with black text overlayed as our primary point of design (explained further below) in
+                        order to make the website easy to navigate.
+                    </li>
+                    <li>
+                        <strong>What are the user expectations for navigation?</strong> We made the website consistent
+                        across all pages with a central bar at the top (in large browsers) to navigate between pages
+                        and a single toggle on the top right to do the same on smaller devices.
+                    </li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="Content">
+            <h2 strong>Content</h2>
+            <p>
+                This website's main focus is the ISM 6225 course and our group. The website is intended to
+                introduct users to our group and highlight the core elements of the ISM 6225 course. The home
+                page features content including direct links to tutorials that have been valuable in our progression
+                of the course. Our "About" page includes information about our group members that outside visitors may find
+                to be valuable in learning more about the team. The contact page highlights information about our university
+                and provides links to directly contact our group members. It includes fictional phone numbers (for demonstration
+                purposes) and our real email addresses. For group members who have a LinkedIn, it also includes their respective
+                links.
+            </p>
+            <p>
+                Essentially, the website is a one-stop shop for the ISM 6225 course and its members in Group 5. It provides
+                all the information contained within the course and information about the group members and their capabilities.
+                It is envisioned as a "virtual portfolio" for the group members.
+            </p>
+        </section>
+
+        <section id="Design">
+            <h2 strong>Design</h2>
+            <p>
+                This website adheres to 3 unique design guidelines-a combination of visual and coding guidelines
+            </p>
+            <ol>
+                <li>
+                    <strong>Consistent use of html tags throughout website code.</strong>
+                    Utilizing consistent < !DOCTYPE html > tags throughout pages to declare the type of 
+                    code used within the pages made the project easier to complete. 
+                    We also made sure to consistently use opening and closing HTML tags such as 
+                    < p > and < /p >.
+                </li>
+                <li>
+                    <strong>Consistent use of classes to apply formatting to pages and images.</strong> We made sure that
+                    all images would scale according to the browser size viewed within, along with ensuring
+                    that the fonts used throughout pages would all be consistent. As the saying goes, "Consistency
+                    is key." We worked hard to make sure this same saying was reflected throughout the website.
+                </li>
+                <li>
+                    <strong>Consistent use of colors and sizing throughout website.</strong> We incorporated the use
+                    of white space along with structured < h1 >, < h2 >, and < h3 > header tags (among others)
+                    in order to create a visually pleasing and user-friendly environment. 
+                </li>
+            </ol>
+            <p>
+                These 3 main design elements contribute heavily to the success of this website, and are elements
+                almost all websites in existence utilize.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
